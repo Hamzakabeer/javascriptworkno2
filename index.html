@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>javascriptwork02</title>
+</head>
+<body>
+    <h2 style="text-align: center;">Enter Your Marks</h2>
+    
+    <label for="subject1">Enter first subject name: </label>
+    <input type="text" id="subject1" required><br><br>
+
+    <label for="subject2">Enter second subject name: </label>
+    <input type="text" id="subject2" required><br><br>
+
+    <label for="subject3">Enter third subject name: </label>
+    <input type="text" id="subject3" required><br><br>
+
+    <label for="marks1">Enter obtained marks for the first subject: </label>
+    <input type="number" id="marks1" max="100" required><br><br>
+
+    <label for="marks2">Enter obtained marks for the second subject: </label>
+    <input type="number" id="marks2" max="100" required><br><br>
+
+    <label for="marks3">Enter obtained marks for the third subject: </label>
+    <input type="number" id="marks3" max="100" required><br><br>
+
+    <button onclick="calculateResults()">Calculate Results</button>
+
+    <h3 id="result" style="text-align: center;"></h3>
+
+    <table id="marksTable" style="display: none;">
+        <tr>
+            <th>Subject</th>
+            <th>Total Marks</th>
+            <th>Obtained Marks</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td id="sub1"></td>
+            <td>100</td>
+            <td id="ob1"></td>
+            <td id="perc1"></td>
+        </tr>
+        <tr>
+            <td id="sub2"></td>
+            <td>100</td>
+            <td id="ob2"></td>
+            <td id="perc2"></td>
+        </tr>
+        <tr>
+            <td id="sub3"></td>
+            <td>100</td>
+            <td id="ob3"></td>
+            <td id="perc3"></td>
+        </tr>
+        <tr>
+            <td><b>Total</b></td>
+            <td><b>300</b></td>
+            <td id="totalMarks"></td>
+            <td id="totalPercentage"></td>
+        </tr>
+    </table>
+
+
+    <hamzakabeer>Multiplication Table</hamzakabeer>
+    <k id="table"></k>
+
+    <hamza>Greet the User</hamza>
+    <j id="greeting"></j>
+
+    <h1>Arithmetic Operations</h1>
+    <p id="value1"></p>
+    <p id="value2"></p>
+    <p id="sum"></p>
+
+    
+<script src="app.js"></script>
+</body>
+</html>
